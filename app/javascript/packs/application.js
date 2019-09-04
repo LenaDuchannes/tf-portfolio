@@ -1,2 +1,4 @@
 import "bootstrap";
-import "canva";
+import { typed } from "../plugins/typing";
+
+typed();
