@@ -1,0 +1,37 @@
+nav {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #1B2735;
+  border-bottom: 3px solid #0dd1d8;
+  text-align: left;
+  z-index: 99;
+}
+
+nav .link-wrap {
+  max-width: 1200px;
+  width: 100%;
+  position: initial;
+  background: none;
+  overflow: visible;
+  text-align: left;
+  top: 53px;
+  transition: height .3s ease-out;
+}
+
+nav .link-wrap div {
+  cursor: pointer;
+  // transition: color .5s;
+  text-transform: uppercase;
+  display: inline;
+  font-size: initial;
+  margin: 0 20px;
+  padding: 0;
+}
+
+.page-link {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}

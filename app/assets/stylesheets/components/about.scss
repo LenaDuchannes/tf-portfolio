@@ -1,0 +1,28 @@
+section {
+  line-height: 18pt;
+  padding: 100px 0 130px 0;
+}
+
+section .container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  color: #446499;
+  position: relative;
+}
+
+// .slide-in-left {
+//   animation: slideInLeft .75 ease both;
+// }
