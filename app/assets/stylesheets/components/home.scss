@@ -34,4 +34,11 @@ nav .link-wrap div {
   color: #fff;
   background-color: transparent;
   border: none;
+  font-family: 'lato',sans-serif;
+}
+
+.page-link:hover{
+  background: -webkit-linear-gradient(white, #393a3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
