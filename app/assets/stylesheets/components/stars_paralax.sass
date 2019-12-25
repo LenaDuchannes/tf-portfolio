@@ -1,5 +1,5 @@
 @function multiple-box-shadow ($n) 
-  $value: '#{random(2000)}px #{random(2000)}px #bda2a2'
+  $value: '#{random(2000)}px #{random(2000)}px white'
   @for $i from 2 through $n
     $value: '#{$value} , #{random(2000)}px #{random(2000)}px #b9d4e1'
 
@@ -12,7 +12,7 @@ $a: 100vh
 $b: 53px
 .starsky
   height: 100vh
-  background: radial-gradient(circle at top, #0D1219, #1B2735) no-repeat
+  background: radial-gradient(circle at top, #005476, #001b26) no-repeat
   overflow: hidden
 
 body
@@ -74,16 +74,16 @@ body
   
   color: #FFF
   text-align: center
-  font-family: 'lato',sans-serif
+  font-family: 'Lato', sans-serif;
   font-weight: 300
-  font-size: 50px
+  font-size: 32px
   letter-spacing: 10px
   
   margin-top: -60px
   padding-left: 10px
   
   #title, span
-    background: -webkit-linear-gradient(white, #393a3c)
+    background: -webkit-linear-gradient(white, #006994)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
 
