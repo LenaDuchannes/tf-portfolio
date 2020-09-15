@@ -19,10 +19,43 @@ section .container {
 }
 
 .header {
-  color: #446499;
+  color: #444649;
   position: relative;
+  width: 141px;
+  height: 67px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
 }
 
+.header-bar {
+  position: relative;
+  width: 70px;
+  top: 100%;
+  bottom: 0%;
+  border: 3px solid #444649;
+}
+
+.circle {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  right: 5vw;
+  border-radius: 50%;
+  background-color: rgba(0, 164, 231, 0.6);
+  display: inline-block;
+}
+
+// .material-icons {
+//   position: relative;
+//   right: 5vw;
+//   margin: auto 0;
+//   font-size: 30pt;
+//   line-height: 36pt;
+//   top: 0;
+// }
 // .slide-in-left {
 //   animation: slideInLeft .75 ease both;
 // }
